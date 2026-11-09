@@ -2,33 +2,47 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>Контакти</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти — Julia</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
+    <header class="site-header">
+        <nav class="top-nav">
+            <a href="../index.html" class="nav-item">Home</a>
+            <a href="gallery.html" class="nav-item">Gallery</a>
+            <a href="contact.html" class="nav-item active">Contact</a>
+        </nav>
+        <div class="logo-text">JULIA</div>
+    </header>
 
-    <p>
-        <a href="../index.html">Головна</a> | 
-        <a href="gallery.html">Галерея</a> | 
-        <b>Контакти</b>
-    </p>
-    <hr>
+    <!-- Додаємо атмосферний банер з фото 3 на фон контактів -->
+    <section class="hero-section-contact">
+        <div class="hero-content">
+            <h2>Зв'яжіться зі мною</h2>
+            <p>З радістю відповім на ваші запитання або пропозиції щодо співпраці!</p>
+        </div>
+    </section>
 
-    <h1>Зв'яжіться зі мною</h1>
-
-    <table>
-        <tr>
-            <th>Контакт</th>
-            <th>Дані</th>
-        </tr>
-        <tr>
-            <td>Email:</td>
-            <td><a href="mailto:julia@example.com">julia@example.com</a></td>
-        </tr>
-        <tr>
-            <td>Телефон:</td>
-            <td>+380 (99) 123-45-67</td>
-        </tr>
-    </table>
-
+    <main class="main-container">
+        <table>
+            <tr>
+                <th>Контакт</th>
+                <th>Дані</th>
+            </tr>
+            <tr>
+                <td><b>Email</b></td>
+                <td><a href="mailto:julia@example.com" style="color: var(--harvest-brown); text-decoration: none;">julia@example.com</a></td>
+            </tr>
+            <tr>
+                <td><b>Телефон</b></td>
+                <td>+380 (99) 123-45-67</td>
+            </tr>
+            <tr>
+                <td><b>Місто</b></td>
+                <td>Харків</td>
+            </tr>
+        </table>
+    </main>
 </body>
 </html>

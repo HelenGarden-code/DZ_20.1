@@ -2,13 +2,50 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>Галерея</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея — Julia</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-       
-    <p>
-        <img src="../photo/park.jpg" alt="Парк" width="600" height="400">
-    </p>
+    <!-- Верхня панель навігації -->
+    <header class="site-header">
+        <nav class="top-nav">
+            <a href="../index.html" class="nav-item">Home</a>
+            <a href="gallery.html" class="nav-item active">Gallery</a>
+            <a href="contact.html" class="nav-item">Contact</a>
+        </nav>
+        <div class="logo-text">JULIA</div>
+    </header>
 
+    <main class="main-container">
+        <h2>Осіння галерея</h2>
+        
+        <div class="highlight-quote">
+            <b>Затишні миттєвості осені, краса природи та натхнення у кожній деталі. 🍂</b>
+        </div>
+
+        <!-- Галерея з усіх наших фотографій -->
+        <div class="gallery-grid">
+            <div class="gallery-card">
+                <img src="../photo/photo1.1.jpg" alt="Осінні гарбузи" class="gallery-img">
+                <div class="gallery-caption">Осінній декор</div>
+            </div>
+            
+            <div class="gallery-card">
+                <img src="../photo/photo1.2.jpg" alt="Колосся пшениці" class="gallery-img">
+                <div class="gallery-caption">Теплі барви</div>
+            </div>
+            
+            <div class="gallery-card">
+                <img src="../photo/photo1.3.jpg" alt="Сухоцвіти" class="gallery-img">
+                <div class="gallery-caption">Затишок вдома</div>
+            </div>
+            
+            <div class="gallery-card">
+                <img src="../photo/photo3.jpg" alt="Прогулянка осіннім парком" class="gallery-img">
+                <div class="gallery-caption">Прогулянка парком</div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

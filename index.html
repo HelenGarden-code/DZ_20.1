@@ -1,42 +1,77 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="uk">
     <head>
-        <title>Page Title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Про мене — Julia</title>
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <h1>Про мене</h1>
-        <h3><i>Мене звати Julia</i></h3>
-        <a href="./pages/contact.html">Контакти</a>
-        <a href="./pages/gallery.html">Галерея</a>
-        <p>Я маю фінансову освіту.</p>
-        <p>Цікавлюся мистецтвом і малюванням.</p>        
-        <p>У вільний час люблю гуляти парком, спостерігати за природою<br> та знаходити натхнення в її красі.</p>
-        <b>Особливо люблю осінь за її неповторні кольори, затишок і спокійну атмосферу.</b>
-        <h2>В таку пору дуже смакують гарячі напої:</h2>
-        <ul>
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-        </ul>        
-        <h3>Мої улюблені поєднання:</h3>
+        <header class="site-header">
+            <nav class="top-nav">
+                <a href="#" class="nav-item active">Home</a>
+                <a href="./pages/gallery.html" class="nav-item">Gallery</a>
+                <a href="./pages/contact.html" class="nav-item">Contact</a>
+            </nav>
+            <div class="logo-text">JULIA</div>
+        </header>
+
+        <!-- Повертаємо фото 2 на головну -->
+        <section class="hero-section-home">
+            <div class="hero-content">
+                <h2>Мене звати Julia</h2>
+                <p>Я маю фінансову освіту та цікавлюся мистецтвом і малюванням. У вільний час люблю гуляти парком, спостерігати за природою та знаходити натхнення в її красі.</p>
+            </div>
+        </section>
+
+        <main class="main-container">
+            <div class="highlight-quote">
+                <b>Особливо люблю осінь за її неповторні кольори, затишок і спокійну атмосферу. 🍂</b>
+            </div>
+            
+            <h2>В таку пору дуже смакують гарячі напої:</h2>
+            
+            <div class="drinks-grid">
+                <div class="drink-card">
+                    <span class="drink-icon">☕</span>
+                    <h4>Coffee</h4>
+                </div>
+                <div class="drink-card">
+                    <span class="drink-icon">🍵</span>
+                    <h4>Tea</h4>
+                </div>
+                <div class="drink-card">
+                    <span class="drink-icon">🥛</span>
+                    <h4>Milk</h4>
+                </div>
+            </div>
+            
+            <h3 class="section-title">✨ Мої улюблені поєднання:</h3>
             <table>
                 <tr>
                     <th>Напій</th>
                     <th>З чим найбільше смакує</th>
                 </tr>
                 <tr>
-                    <td>Coffee</td>
+                    <td><b>Coffee</b></td>
                     <td>Зі шматочком чорного шоколаду або круасаном</td>
                 </tr>
                 <tr>
-                    <td>Tea</td>
-                     <td>З лимоном, імбиром та домашнім печивом</td>
+                    <td><b>Tea</b></td>
+                    <td>З лимоном, імбиром та домашнім печивом</td>
                 </tr>
                 <tr>
-                     <td>Milk</td>
+                    <td><b>Milk</b></td>
                     <td>Теплим, із ложечкою меду та корицею перед сном</td>
-                    </tr>
+                </tr>
             </table>
-        <img src="./photo/park.jpg" alt="Парк" width="600" height="400">
+            
+            <div class="gallery-grid">
+                <img src="./photo/photo1.1.jpg" alt="Гарбузи" class="gallery-img">
+                <img src="./photo/photo1.2.jpg" alt="Колосся" class="gallery-img">
+                <img src="./photo/photo1.3.jpg" alt="Сухоцвіти" class="gallery-img">
+            </div>
+        </main>
     </body>
 </html>
